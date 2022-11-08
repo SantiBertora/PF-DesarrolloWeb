@@ -1,0 +1,40 @@
+.container {
+    background-color: #ffc1d5;
+    .img {
+        width: 90%;
+        margin: 5%;
+    }
+    p {
+        padding: 2rem;
+        text-align: center;
+        font-size: 1rem;
+    }
+    .carousel {
+        padding: 5%;
+        display: flex;
+        justify-content: center;
+        }
+    .video {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 10%;
+        .vid {
+            width: 80%;
+            height: auto;
+        }
+    }
+    .grid {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        .flex {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .calendario {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+    }
+}

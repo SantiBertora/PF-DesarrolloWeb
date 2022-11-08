@@ -1,3 +1,97 @@
 * {
-  margin: 2px;
+  margin: 0;
+  padding: 0;
+}
+* body {
+  background-image: url(../img/fondo/fondo.jpg);
+}
+
+.container-fluid {
+  justify-content: center;
+}
+
+.logonav {
+  width: 50px;
+}
+.logonav:hover {
+  transform: scale(2, 2);
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+.container {
+  background-color: #ffc1d5;
+}
+.container .img {
+  width: 90%;
+  margin: 5%;
+}
+.container p {
+  padding: 2rem;
+  text-align: center;
+  font-size: 1rem;
+}
+.container .carousel {
+  padding: 5%;
+  display: flex;
+  justify-content: center;
+}
+.container .video {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10%;
+}
+.container .video .vid {
+  width: 80%;
+  height: auto;
+}
+.container .grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.container .grid .flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.container .grid .calendario {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+i {
+  font-size: xx-large;
+  color: #ffc1d5;
+  margin: 1rem;
+}
+i:hover {
+  font-size: 4rem;
+}
+
+@media screen and (min-width: 992px) {
+  .container {
+    width: 900px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .vid {
+    max-width: 100%;
+  }
+  .calendario iframe {
+    max-width: 100%;
+  }
 }/*# sourceMappingURL=style.css.map */

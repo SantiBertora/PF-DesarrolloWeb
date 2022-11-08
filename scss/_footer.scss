@@ -1,0 +1,14 @@
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+i {
+    font-size: xx-large;
+    color: #ffc1d5;
+    margin: 1rem;
+    &:hover {
+        font-size: 4rem;
+    }
+}

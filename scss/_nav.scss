@@ -1,0 +1,14 @@
+.container-fluid {
+    justify-content: center;
+}
+
+.logonav {
+    width: 50px;
+    &:hover {
+        transform: scale(2,2);
+    }
+}
+
+a:hover {
+    font-weight: bold;
+}
