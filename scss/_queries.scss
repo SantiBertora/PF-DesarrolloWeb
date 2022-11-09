@@ -6,16 +6,14 @@
 
 @media screen and (max-width: 992px) {
     .grid {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    .vid {
-        max-width: 100%;
-    }
-
-    .calendario iframe {
-        max-width: 100%;
+        grid-template-areas: 
+            "texto texto"
+            "calendario calendario";
+        .flex {
+            grid-area: texto;
+        }
+        .calendario {
+            grid-area: calendario;
+        }
     }
 }

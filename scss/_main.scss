@@ -13,15 +13,11 @@
         padding: 5%;
         display: flex;
         justify-content: center;
-        }
+    }
     .video {
         display: flex;
         justify-content: center;
-        padding-bottom: 10%;
-        .vid {
-            width: 80%;
-            height: auto;
-        }
+        padding-bottom: 10%; 
     }
     .grid {
         display: grid;

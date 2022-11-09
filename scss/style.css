@@ -43,10 +43,6 @@ a:hover {
   justify-content: center;
   padding-bottom: 10%;
 }
-.container .video .vid {
-  width: 80%;
-  height: auto;
-}
 .container .grid {
   display: grid;
   grid-template-columns: 50% 50%;
@@ -84,14 +80,12 @@ i:hover {
 }
 @media screen and (max-width: 992px) {
   .grid {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    grid-template-areas: "texto texto" "calendario calendario";
   }
-  .vid {
-    max-width: 100%;
+  .grid .flex {
+    grid-area: texto;
   }
-  .calendario iframe {
-    max-width: 100%;
+  .grid .calendario {
+    grid-area: calendario;
   }
 }/*# sourceMappingURL=style.css.map */
