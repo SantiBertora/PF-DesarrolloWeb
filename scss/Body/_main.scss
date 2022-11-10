@@ -1,5 +1,6 @@
 .container {
-    background-color: #ffc1d5;
+    background-color: map-get($colores, rosa);
+
     .img {
         width: 90%;
         margin: 5%;
@@ -8,6 +9,7 @@
         padding: 2rem;
         text-align: center;
         font-size: 1rem;
+        margin: 0px;
     }
     .carousel {
         padding: 5%;
